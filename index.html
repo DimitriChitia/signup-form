@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A Signup Form</title>
+</head>
+<h2>Signup Form</h2>
+<h3>Basic info</h3>
+
+<body>
+    <label for="">Your Name :</label><br>
+    <input type="name"><br>
+    <label for="">Your Email :</label><br>
+    <input type="email"><br>
+    <label for="">Password :</label><br>
+    <input type="password"><br>
+    <legend>Your Age</legend>
+    <input type="radio">
+    <label for="under_18">Under 18</label><br>
+    <input type="radio">
+    <label for="over_18">Over 18</label>
+    <h3>Your Profile</h3>
+    <p>Upload image</p>
+    <input type="file"><br>
+    <label for="">Bio</label><br>
+    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+    <label for="">Job</label>
+    <select name="user_job" id="job">
+        <optgroup label="Web">
+            <option value="frontend_developer">Frontend Developer</option>
+            <option value="php_developer">PHP Developer</option>
+            <option value="python_developer">Python Developer</option>
+            <option value="rails_developer">Rails Developer</option>
+            <option value="web_designer">Web Designer</option>
+            <option value="wordpress_developer">Wordpress Developer</option>
+        </optgroup>
+        <optgroup label="Mobile">
+            <option value="android_developer">Android Developer</option>
+            <option value="ios_developer">IOS Developer</option>
+            <option value="mobile_designer">Mobile Designer</option>
+        </optgroup>
+        <optgroup label="Business">
+            <option value="business_owner">Business Owner</option>
+            <option value="freelancer">Freelancer</option>
+        </optgroup>
+    </select>
+    <br>
+    <label>Interests :</label><br>
+    <input type="checkbox">
+    <label for="develpoment">Development</label><br>
+    <input type="checkbox">
+    <label for="design">Design</label><br>
+    <input type="checkbox">
+    <label for="business">Business</label><br>
+    <button type="submit">Sign Up</button>
+
+</body>
+
+</html>
